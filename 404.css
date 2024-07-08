@@ -1,0 +1,17 @@
+/* 404.css */
+.go-back-button {
+    /* Style the button */
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+    margin-top: 2rem; /* Add some space above the button */
+}
+
+.go-back-button:hover {
+    background-color: #0056b3;
+}

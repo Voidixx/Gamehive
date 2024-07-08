@@ -1,0 +1,503 @@
+/* Basic Styling for all elements */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 5rem 0;
+    min-height: 400px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+.hero-text {
+    text-align: center;
+    margin-left: 3rem;
+    color: #333;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.explore-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Games Section Styling */
+.featured-games {
+    padding: 3rem 0;
+    background-color: #fff;
+}
+
+.featured-games h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.game-carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+/* Game Card Styling (will be defined in JavaScript) */
+.game-card {
+    /* ... */
+}
+
+/* Game Categories Section Styling */
+.game-categories {
+    padding: 3rem 0;
+    background-color: #eee;
+}
+
+.game-categories h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.category-list a {
+    background-color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.category-list a:hover {
+    background-color: #e9e9e9;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Responsive Design (Mobile) */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .hero-text {
+        margin: 2rem 0;
+    }
+
+    .game-carousel {
+        flex-direction: column;
+    }
+
+    .game-card {
+        /* ... */
+    }
+
+    .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align logo and heading */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 1rem; /* Add space between logo and heading */
+}
+
+h1 { /* Style for the Gamehive heading */
+  font-size: 1.8rem; /* Adjust the size as needed */
+  font-weight: bold;
+  margin: 0; /* Remove default margins */
+}
+
+/* ... other styles ... */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align logo and heading */
+}
+
+.logo {
+  /* Remove the previous logo styles */
+  height: 30px; /* Adjust the height as needed */
+  margin-right: 1rem; /* Add space between logo and heading */
+}
+
+h1 { /* Style for the Gamehive heading */
+  font-size: 1.8rem; /* Adjust the size as needed */
+  font-weight: bold;
+  margin: 0; /* Remove default margins */
+}
+
+/* ... other styles ... */
+
+.playhub-heading {
+    color: #007bff; /* Blue color */
+    font-size: 1.8rem; /* Adjust size as needed */
+    font-weight: bold;
+    margin-left: 1rem; /* Add space between logo and heading */
+}
+
+/* ... your existing styles ... */
+
+.explore-button {
+    text-decoration: none; /* Remove the underline */
+    padding: 1rem 2rem; /* Add some padding */
+    background-color: #007bff; /* Set a background color */
+    color: white; /* Set the text color */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+/* Add this CSS to prevent content from overlapping the footer */
+main {
+    padding-bottom: 60px; /* Adjust the value as needed */
+}
+
+/* ... your existing styles ... */
+
+.trending-game-card { 
+  background-color: #f8f8f8; 
+  border: 1px solid #ddd; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 1rem; 
+  text-align: center;
+  width: 200px; 
+  max-width: 100%; 
+  overflow: hidden; 
+  transition: box-shadow 0.3s ease; 
+  margin-right: 1rem; 
+}
+
+.trending-game-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.trending-game-card img {
+  width: 100%;
+  border-radius: 10px; 
+  margin-bottom: 0.5rem; 
+}
+
+.trending-game-card h2 {
+  font-size: 1.2rem; 
+  margin-bottom: 0.25rem; 
+  color: #333; 
+  font-weight: bold; 
+}
+
+.trending-game-card p {
+  margin-bottom: 0.5rem; 
+  line-height: 1.5;
+  color: #555; 
+  font-size: 0.9rem; 
+}
+
+.trending-game-card .play-button { 
+  background: linear-gradient(to right, #007bff, #0056b3); 
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.trending-game-card .play-button:hover {
+  background: linear-gradient(to right, #0056b3, #00338d); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.game-carousel {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  gap: 1rem; 
+}
+
+/* ... rest of your existing styles ... */
+
+/* Responsive Design (Mobile) */
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+    .hero-text {
+        margin: 2rem 0;
+    }
+    .hero img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .featured-games {
+        padding: 2rem 0;
+    }
+    .featured-games h2 {
+        font-size: 1.8rem;
+    }
+    .game-carousel {
+        flex-direction: column;
+    }
+    .game-card {
+        width: 95%;
+        margin: 0 auto; 
+        margin-bottom: 1rem; 
+    }
+    .trending-game-card {
+        width: 95%;
+        margin: 0 auto; 
+        margin-bottom: 1rem; 
+    }
+    .game-categories {
+        padding: 2rem 0;
+    }
+    .game-categories h2 {
+        font-size: 1.8rem;
+    }
+    .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-list a {
+        width: 90%;
+        margin: 0 auto; 
+        margin-bottom: 1rem;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    footer li {
+        margin-bottom: 1rem;
+    }
+}
+
+/* ... your existing styles ... */
+
+/* Responsive Design (Mobile) */
+@media screen and (max-width: 768px) {
+  /* ... other styles ... */
+
+  .game-carousel {
+    display: flex; /* Use flexbox for easy centering */
+    flex-direction: column; /* Stack cards vertically */
+    overflow-x: hidden; /* Remove horizontal scrolling */
+    align-items: center; /* Center cards on the screen */
+    padding: 1rem;
+    gap: 1rem; 
+  }
+}
+/* ... your existing styles ... */
+
+.hero img {
+  width: 100%;
+  max-width: 600px;  /* Adjust this value as needed */
+  object-fit: cover;
+}
+
+/* ... your existing styles ... */
+
+/* ... your existing styles ... */
+
+/* Footer Styling */
+footer {
+    /* ... your existing footer styles ... */
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+}
+
+/* Responsive Design (Desktop) */
+@media screen and (min-width: 768px) {
+    /* ... other styles for desktop ... */
+
+    main {
+        padding-bottom: 60px; /* Adjust the value as needed */
+    }
+}
+
+/* ... your existing styles ... */
+
+/* ... your existing styles ... */
+
+/* Add this CSS to prevent content from overlapping the footer */
+main {
+    padding-bottom: 60px; /* Adjust the value as needed */
+}
+
+/* ... your existing styles ... */
+
+/* ... your existing styles ... */
+
+.trending-game-card img {
+  width: 100%; 
+  height: 150px; /* Adjust this value as needed */
+  object-fit: cover; 
+  border-radius: 10px; 
+  margin-bottom: 0.5rem; 
+}
+
+.trending-game-card img {
+            width: 90%;
+  height: 250px; /* Replace with the actual height */
+  object-fit: cover;
+  border-radius: 10px; 
+  margin-bottom: 1rem;
+}

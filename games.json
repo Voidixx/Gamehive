@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Swordbattle.io",
+    "image": "images/games/swordbattle.io.jpeg",
+    "description": "Swordbattle.io is an online sword fighting io game! Fight with friends and enemies in this multiplayer battle arena! Collect coins to be huge, rule the land",
+    "playLink": "https://swordbattle.io/",
+    "category": "Fighting"
+  },
+  {
+    "title": "Test Game",
+    "image": "images/games/empty.jpg",
+    "description": "A fun and challenging test game.",
+    "playLink": "https://www.example.com/testgame",
+    "category": "Adventure"
+  },
+{
+    "title": "Test Game 2",
+    "image": "images/games/empty.jpg",
+    "description": "A fun and challenging test game.",
+    "playLink": "https://www.example.com/testgame",
+    "category": "Adventure"
+},
+  {
+    "title": "Test Game 3",
+    "image": "images/games/empty.jpg",
+    "description": "A fun and challenging test game.",
+    "playLink": "https://www.example.com/testgame",
+    "category": "Adventure"
+  },
+  {
+    "title": "Test Game",
+    "image": "images/games/empty.jpg",
+    "description": "A fun and challenging test game.",
+    "playLink": "https://www.example.com/testgame",
+    "category": "Adventure"
+  },
+  {
+    "title": "Test Game",
+    "image": "images/games/empty.jpg",
+    "description": "A fun and challenging test game.",
+    "playLink": "https://www.example.com/testgame",
+    "category": "Adventure"
+  }
+]

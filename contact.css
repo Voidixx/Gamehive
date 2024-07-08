@@ -1,0 +1,182 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 1rem;
+}
+
+.playhub-heading {
+    color: #007bff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+/* Main Content Section */
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive Columns */
+    gap: 2rem;
+    padding: 2rem;
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 1200px; /* Limit max width */
+}
+
+/* Form Styling */
+#messageForm {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#messageForm label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#messageForm input[type="text"],
+#messageForm input[type="email"],
+#messageForm textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#messageForm textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#messageForm input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+#messageForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Allow items to wrap to next line on smaller screens */
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ... Previous CSS ... */
+
+@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+  .content-container {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+  footer ul {
+    flex-direction: column; /* Stack footer links vertically */
+    align-items: center; /* Center links */
+    gap: 0.5rem; /* Add space between links */
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Add adjustments for tablet-sized screens */
+}
+
+/* ... Remaining CSS ... */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}

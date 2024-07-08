@@ -1,0 +1,328 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1rem; 
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .game-container {
+        gap: 1rem;
+    }
+    .game-card {
+        width: 90%;
+    }
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem; 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 300px; 
+    background-color: #f0f0f0;
+    position: relative; 
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none; 
+    border-radius: 20px;
+    width: 100%; 
+    background-color: transparent; 
+    outline: none; 
+    font-size: 16px; 
+}
+
+.game-suggestions {
+    position: absolute; 
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+    display: none; 
+    max-height: 200px;
+    overflow-y: auto;
+    top: 100%; 
+    width: 100%; 
+    left: 0; 
+    padding: 0; 
+    margin-top: 5px; 
+}
+
+.game-suggestions li {
+    padding: 10px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee; 
+    display: flex; 
+    align-items: center; 
+}
+
+.game-suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+.game-suggestions img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+    border-radius: 5px; 
+}
+
+.game-suggestions li:last-child {
+    border-bottom: none; 
+}
+
+.game-card {
+  background-color: #f8f8f8; 
+  border: 1px solid #ddd; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 2rem;
+  text-align: center;
+  width: 300px; 
+  max-width: 100%; 
+  overflow: hidden; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.game-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px; 
+  margin-bottom: 1rem;
+}
+
+.game-card h2 {
+  font-size: 1.8rem; 
+  margin-bottom: 0.5rem;
+  color: #333; 
+  font-weight: bold; 
+}
+
+.game-card p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #555; 
+  font-size: 1rem; 
+}
+
+.play-button {
+  background: linear-gradient(to right, #007bff, #0056b3); 
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.play-button:hover {
+  background: linear-gradient(to right, #0056b3, #00338d); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+
+.logo {
+  height: 30px; 
+  margin-right: 1rem; 
+}
+
+h1 { 
+  font-size: 1.8rem; 
+  font-weight: bold;
+  margin: 0; 
+}
+
+.playhub-heading {
+    color: #007bff; 
+    font-size: 1.8rem; 
+    font-weight: bold;
+    margin-left: 1rem; 
+}
+
+.categories-container {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+.categories-button {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories-button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.categories-dropdown {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+    display: none; 
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.categories-dropdown li {
+    padding: 10px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories-dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+.categories-button {
+    background: linear-gradient(to right, #007bff, #0056b3); 
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.categories-button:hover {
+    background: linear-gradient(to right, #0056b3, #00338d); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+/* ... your existing styles ... */
+
+.game-card img {
+  width: 100%;
+  height: 275px; /* Replace with the actual height */
+  object-fit: cover;
+  border-radius: 10px; 
+  margin-bottom: 1rem;
+}
+
+/* ... your existing styles ... */
