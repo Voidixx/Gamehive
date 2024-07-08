@@ -14,14 +14,14 @@
     "category": "Adventure"
   },
 {
-    "title": "Test Game 2",
+    "title": "Test Game",
     "image": "images/games/empty.jpg",
     "description": "A fun and challenging test game.",
     "playLink": "https://www.example.com/testgame",
     "category": "Adventure"
 },
   {
-    "title": "Test Game 36",
+    "title": "Test Game",
     "image": "images/games/empty.jpg",
     "description": "A fun and challenging test game.",
     "playLink": "https://www.example.com/testgame",
