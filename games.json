@@ -98,42 +98,42 @@
         "category": "Platformer"
     },
     {
-        "title": "The Sims",
+        "title": "",
         "description": "A life simulation game where you create and control the lives of virtual people.  Build houses, choose careers, and experience the ups and downs of everyday life.",
         "image": "images/games/thesims.jpg",
         "playLink": "https://www.thesims.com/",
         "category": "Simulation"
     },
     {
-        "title": "Minecraft",
+        "title": "Eaglercraft",
         "description": "A sandbox game where you can build anything you can imagine using blocks.  Explore, craft, and survive in a vast world filled with possibilities.",
         "image": "images/games/minecraft.jpg",
         "playLink": "https://www.minecraft.net/",
         "category": "Sandbox"
     },
     {
-        "title": "Grand Theft Auto V",
+        "title": "Gartic.io",
         "description": "An open-world action-adventure game set in Los Santos.  Explore the city, engage in missions, and experience the criminal underworld.",
         "image": "images/games/gta5.jpg",
         "playLink": "https://www.rockstargames.com/GTA5",
         "category": "Action"
     },
     {
-        "title": "Call of Duty: Modern Warfare",
+        "title": "Mope.io",
         "description": "A first-person shooter game with realistic graphics and intense gameplay.  Engage in online multiplayer battles and experience thrilling single-player campaigns.",
         "image": "images/games/callofduty.jpg",
         "playLink": "https://www.callofduty.com/",
         "category": "Shooter"
     },
     {
-        "title": "Fortnite",
+        "title": "MooMoo.io",
         "description": "A battle royale game where you fight against 99 other players to be the last one standing.  Build structures, collect weapons, and outsmart your opponents.",
         "image": "images/games/fortnite.jpg",
         "playLink": "https://www.fortnite.com/",
         "category": "Battle Royale"
     },
     {
-        "title": "Among Us",
+        "title": "Paper.io",
         "description": "A social deduction game where you try to figure out who the imposter is among a crew of astronauts.  Communicate with your crewmates, complete tasks, and survive!",
         "image": "images/games/amongus.jpg",
         "playLink": "https://amongus.com/",
