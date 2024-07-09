@@ -15,7 +15,7 @@
     },
     {
         "title": "Diep.io",
-        "image": "images/games/diep.",
+        "image": "images/games/diep.jpeg",
         "description": "A fun and challenging test game.",
         "playLink": "https://diep.io",
         "category": "Adventure"
@@ -65,7 +65,7 @@
     {
         "title": "Cryzen.io",
         "description": "A groundbreaking shooter game where you defend your base from waves of invading aliens.  Shoot accurately to survive and protect the Earth!",
-        "image": "images/games/spaceinvaders.jpg",
+        "image": "images/games/cryzen.jpeg",
         "playLink": "https://cryzen.io/play",
         "category": "Shooter"
     },
