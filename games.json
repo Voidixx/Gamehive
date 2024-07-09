@@ -42,9 +42,9 @@
         "category": "Adventure"
     },
     {
-        "title": "1v1.lol",
+        "title": "Shell Shockers",
         "description": "The classic platformer that started it all! Jump, run, and collect coins as you navigate through the Mushroom Kingdom to rescue Princess Peach from Bowser.",
-        "image": "images/games/supermario.jpg",
+        "image": "images/games/shellshockers.jpg",
         "playLink": "https://www.mariowiki.com/Super_Mario_Bros.",
         "category": "Platformer"
     },
