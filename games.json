@@ -70,9 +70,9 @@
         "category": "Shooter"
     },
     {
-        "title": "Sonic the Hedgehog",
+        "title": "Gartic Phone",
         "description": "A fast-paced platformer where you control Sonic, the blue blur, as he runs through levels and collects rings.  Can you defeat Dr. Robotnik and save the world?",
-        "image": "images/games/sonic.png",
+        "image": "images/games/garticphone.png",
         "playLink": "https://www.sonicthehedgehog.com/",
         "category": "Platformer"
     },
@@ -80,25 +80,24 @@
         "title": "Gatdamn.io",
         "description": "An adventure game where you explore Hyrule, solve puzzles, and battle enemies to rescue Princess Zelda.  A classic RPG that revolutionized the genre.",
         "image": "images/games/zelda.jpg",
-        "playLink": "https://www.zelda.com/",
+        "playLink": "https://gatdamn.io",
         "category": "Adventure"
     },
     {
         "title": "Mine-craft.io",
         "description": "A legendary fighting game where you choose your favorite character and battle against others in one-on-one combat.  A true test of skill and strategy.",
         "image": "images/games/streetfighter.png",
-        "playLink": "https://www.streetfighter.com/",
+        "playLink": "https://mine-craft.io",
         "category": "Fighting"
     },
     {
         "title": "Carball.io",
         "description": "A classic arcade game where you control Mario and climb ladders to rescue Pauline from Donkey Kong.  A challenging platformer that requires quick reflexes.",
         "image": "images/games/donkeykong.jpg",
-        "playLink": "https://www.nintendo.com/games/detail/donkey-kong-switch/",
+        "playLink": "https://carball.io",
         "category": "Platformer"
     },
-    {
-        "title": "Lurkers.io",
+      {      "title": "Lurkers.io",
         "description": "A life simulation game where you create and control the lives of virtual people.  Build houses, choose careers, and experience the ups and downs of everyday life.",
         "image": "images/games/thesims.jpg",
         "playLink": "https://www.thesims.com/",
