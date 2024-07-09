@@ -49,14 +49,14 @@
         "category": "Platformer"
     },
     {
-        "title": "Tetris",
+        "title": "Skillfite.io",
         "description": "The iconic puzzle game where you have to strategically fit falling blocks into a grid.  A timeless classic that's easy to learn but hard to master.",
         "image": "images/games/tetris.png",
         "playLink": "https://tetris.com/",
         "category": "Puzzle"
     },
     {
-        "title": "Pac-Man",
+        "title": "Realmz.io",
         "description": "A classic arcade game where you control Pac-Man and eat dots while avoiding ghosts.  Can you collect all the points and escape the maze?",
         "image": "images/games/pacman.jpg",
         "playLink": "https://www.pacman.com/",
