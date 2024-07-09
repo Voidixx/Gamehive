@@ -32,7 +32,7 @@
         "image": "images/games/skribbl.jpeg",
         "description": "A fun and challenging test game.",
         "playLink": "https://skribbl.io",
-        "category": "Adventure"
+        "category": "Word-Guessing"
     },
     {
         "title": "Tetr.io",
