@@ -7,38 +7,38 @@
     "category": "Fighting"
   },
   {
-    "title": "Test Game",
-    "image": "images/games/empty.jpg",
-    "description": "A fun and challenging test game.",
-    "playLink": "https://www.example.com/testgame",
+    "title": "Krunker.io",
+    "image": "images/games/krunker.",
+    "description": "A fast-paced first-person shooter with various game modes and customizable characters.",
+    "playLink": "https://krunker.io",
     "category": "Adventure"
   },
 {
-    "title": "Test Game",
-    "image": "images/games/empty.jpg",
+    "title": "Diep.io",
+    "image": "images/games/diep.",
     "description": "A fun and challenging test game.",
-    "playLink": "https://www.example.com/testgame",
+    "playLink": "https://diep.io",
     "category": "Adventure"
 },
   {
-    "title": "Test Game",
-    "image": "images/games/empty.jpg",
+    "title": "Powerline.io",
+    "image": "images/games/powerline.",
     "description": "A fun and challenging test game.",
-    "playLink": "https://www.example.com/testgame",
+    "playLink": "https://powerline.io",
     "category": "Adventure"
   },
   {
-    "title": "Test Game",
-    "image": "images/games/empty.jpg",
+    "title": "Skribbl.io",
+    "image": "images/games/skribbl.",
     "description": "A fun and challenging test game.",
-    "playLink": "https://www.example.com/testgame",
+    "playLink": "https://skribbl.io",
     "category": "Adventure"
   },
   {
-    "title": "Test Game",
-    "image": "images/games/empty.jpg",
+    "title": "Tetr.io",
+    "image": "images/games/tetr.",
     "description": "A fun and challenging test game.",
-    "playLink": "https://www.example.com/testgame",
+    "playLink": "https://tetr.io/",
     "category": "Adventure"
   }
 ]
