@@ -8,7 +8,7 @@
     },
     {
         "title": "Krunker.io",
-        "image": "images/games/krunker.",
+        "image": "images/games/krunker.jpeg",
         "description": "A fast-paced first-person shooter with various game modes and customizable characters.",
         "playLink": "https://krunker.io",
         "category": "Adventure"
@@ -36,7 +36,7 @@
     },
     {
         "title": "Tetr.io",
-        "image": "images/games/tetr.",
+        "image": "images/games/tetr.jpeg",
         "description": "A fun and challenging test game.",
         "playLink": "https://tetr.io/",
         "category": "Adventure"
