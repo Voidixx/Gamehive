@@ -51,15 +51,15 @@
     {
         "title": "Skillfite.io",
         "description": "The iconic puzzle game where you have to strategically fit falling blocks into a grid.  A timeless classic that's easy to learn but hard to master.",
-        "image": "images/games/tetris.png",
-        "playLink": "https://tetris.com/",
+        "image": "images/games/skillfite.jpeg",
+        "playLink": "https://skillfite.io",
         "category": "Puzzle"
     },
     {
         "title": "Realmz.io",
         "description": "A classic arcade game where you control Pac-Man and eat dots while avoiding ghosts.  Can you collect all the points and escape the maze?",
-        "image": "images/games/pacman.jpg",
-        "playLink": "https://www.pacman.com/",
+        "image": "images/games/realmz.jpeg",
+        "playLink": "https://realmz.io",
         "category": "Arcade"
     },
     {
@@ -72,8 +72,8 @@
     {
         "title": "Gartic Phone",
         "description": "A fast-paced platformer where you control Sonic, the blue blur, as he runs through levels and collects rings.  Can you defeat Dr. Robotnik and save the world?",
-        "image": "images/games/garticphone.png",
-        "playLink": "https://www.sonicthehedgehog.com/",
+        "image": "images/games/garticphone.jpeg",
+        "playLink": "https://garticphone.com",
         "category": "Platformer"
     },
     {
@@ -86,56 +86,56 @@
     {
         "title": "Mine-craft.io",
         "description": "A legendary fighting game where you choose your favorite character and battle against others in one-on-one combat.  A true test of skill and strategy.",
-        "image": "images/games/streetfighter.png",
+        "image": "images/games/mine-craft.jpeg",
         "playLink": "https://mine-craft.io",
         "category": "Fighting"
     },
     {
         "title": "Carball.io",
         "description": "A classic arcade game where you control Mario and climb ladders to rescue Pauline from Donkey Kong.  A challenging platformer that requires quick reflexes.",
-        "image": "images/games/donkeykong.jpg",
+        "image": "images/games/carball.jpeg",
         "playLink": "https://carball.io",
         "category": "Platformer"
     },
       {      "title": "Lurkers.io",
         "description": "A life simulation game where you create and control the lives of virtual people.  Build houses, choose careers, and experience the ups and downs of everyday life.",
-        "image": "images/games/thesims.jpg",
-        "playLink": "https://www.thesims.com/",
+        "image": "images/games/lurkers.jpeg",
+        "playLink": "https://lurkers.io",
         "category": "Simulation"
     },
     {
         "title": "Eaglercraft",
         "description": "A sandbox game where you can build anything you can imagine using blocks.  Explore, craft, and survive in a vast world filled with possibilities.",
-        "image": "images/games/minecraft.jpg",
-        "playLink": "https://www.minecraft.net/",
+        "image": "images/games/earglercraft.jpeg",
+        "playLink": "https://sd592g.github.io/zj684od4lfg/",
         "category": "Sandbox"
     },
     {
         "title": "Gartic.io",
         "description": "An open-world action-adventure game set in Los Santos.  Explore the city, engage in missions, and experience the criminal underworld.",
-        "image": "images/games/gta5.jpg",
-        "playLink": "https://www.rockstargames.com/GTA5",
+        "image": "images/games/gartic.jpeg",
+        "playLink": "https://gartic.io",
         "category": "Action"
     },
     {
         "title": "Mope.io",
         "description": "A first-person shooter game with realistic graphics and intense gameplay.  Engage in online multiplayer battles and experience thrilling single-player campaigns.",
-        "image": "images/games/callofduty.jpg",
-        "playLink": "https://www.callofduty.com/",
+        "image": "images/games/mope.jpeg",
+        "playLink": "https://mope.io",
         "category": "Shooter"
     },
     {
         "title": "MooMoo.io",
         "description": "A battle royale game where you fight against 99 other players to be the last one standing.  Build structures, collect weapons, and outsmart your opponents.",
-        "image": "images/games/fortnite.jpg",
-        "playLink": "https://www.fortnite.com/",
+        "image": "images/games/moomoo.jpeg",
+        "playLink": "https://moomoo.io",
         "category": "Battle Royale"
     },
     {
         "title": "Paper.io",
         "description": "A social deduction game where you try to figure out who the imposter is among a crew of astronauts.  Communicate with your crewmates, complete tasks, and survive!",
-        "image": "images/games/amongus.jpg",
-        "playLink": "https://amongus.com/",
+        "image": "images/games/paper.jpeg",
+        "playLink": "https://paper.io",
         "category": "Social Deduction"
     }
 ]
