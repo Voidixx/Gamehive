@@ -93,7 +93,7 @@
     {
         "title": "Carball.io",
         "description": "A classic arcade game where you control Mario and climb ladders to rescue Pauline from Donkey Kong.  A challenging platformer that requires quick reflexes.",
-        "image": "images/games/carball.jpeg",
+        "image": "images/games/carball.png",
         "playLink": "https://carball.io",
         "category": "Platformer"
     },
