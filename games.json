@@ -126,7 +126,7 @@
     },
     {
         "title": "MooMoo.io",
-        "description": "A battle royale game where you fight against 99 other players to be the last one standing.  Build structures, collect weapons, and outsmart your opponents.",
+        "description": "MooMoo.io is a challenging .io game about gathering resources and building a village. Hit trees and rocks to collect wood and stones. You can use those resources to build walls and windmills.",
         "image": "images/games/moomoo.jpeg",
         "playLink": "https://moomoo.io",
         "category": "Battle Royale"
