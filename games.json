@@ -63,10 +63,10 @@
         "category": "Arcade"
     },
     {
-        "title": "Space Invaders",
+        "title": "Cryzen.io",
         "description": "A groundbreaking shooter game where you defend your base from waves of invading aliens.  Shoot accurately to survive and protect the Earth!",
         "image": "images/games/spaceinvaders.jpg",
-        "playLink": "https://www.spaceinvaders.com/",
+        "playLink": "https://cryzen.io/play",
         "category": "Shooter"
     },
     {
