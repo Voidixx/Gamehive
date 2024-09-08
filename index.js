@@ -36,6 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => {
       console.error('Error loading game data:', error);
-      window.location.href = '404.html'; // Redirect on any fetch error
+      window.location.href = '404.htl'; // Redirect on any fetch error
     });
 });
