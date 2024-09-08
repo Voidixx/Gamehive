@@ -25,12 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(() => { 
               window.location.href = game.playLink; 
             })
-            
+            .catch(error => {
+              console.error(`Error loading game: ${game.title}`, error);
+              window.location.href = '404.html';
             });
         });
 
         gameCarousel.appendChild(gameCard);
       }
     })
-    
+    .catch(error => {
+      console.error('Error loading game data:', error);
+      window.location.href = '404.html'; // Redirect on any fetch error
+    });
 });
