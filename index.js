@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
               console.error(`Error loading game: ${game.title}`, error);
-              window.location.href = '404.html';
+              window.location.href = '404.htm';
             });
         });
 
