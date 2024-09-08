@@ -32,8 +32,5 @@ document.addEventListener('DOMContentLoaded', () => {
         gameCarousel.appendChild(gameCard);
       }
     })
-    .catch(error => {
-      console.error('Error loading game data:', error);
-      window.location.href = '404.htl'; // Redirect on any fetch error
+  
     });
-});
